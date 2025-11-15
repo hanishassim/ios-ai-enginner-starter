@@ -1,0 +1,39 @@
+> This task may take some time — that is expected and acceptable.
+>
+> Do **not** skip files or produce partial results due to time or complexity. Accuracy and completeness are **mission-critical**.
+>
+> You are permitted to take as long as necessary to:
+>
+> * Review every relevant file
+> * Extract actual patterns and conventions
+> * Produce complete, high-fidelity output
+>
+> Do not optimize for speed or brevity. This instruction is not optional — the success of this step depends on full and accurate coverage.
+
+
+For each of the domains listed in `./{results_folder}/3-architectural-domains.json`, you're analyzing the **iOS (Swift) codebase** to understand how it implements the architectural domain: "{domain}".
+
+
+The tech stack is summarized in `./{results_folder}/1-techstack.md`.
+
+### Your Task:
+
+* Examine relevant **Swift files (`.swift`)** for this domain.
+* Identify consistent patterns, tools, conventions, and practices (e.g., **how ViewModels are defined, how Views consume state, how Services/Repositories are implemented, how data models are structured**).
+* Include real **Swift code examples** that reflect actual usage in the codebase.
+* Focus on what the project **is** doing — not what it *should* do.
+
+
+Write your findings to: `./{results_folder}/4-domains/{domain}.md`
+
+
+### Requirements:
+
+* If code snippets are included, use exact **Swift code examples** from project files.
+* Do not invent recommendations or include external best practices.
+* Only describe what is actually used in this project.
+
+
+Your goal is to document how the "{domain}" domain is implemented within this specific iOS codebase in such a way that anyone could leverage or add features to it.
+
+After writing each of the domain files, read the contents of [./5-styleguide-generation.md](5-styleguide-generation.md) and proceed accordingly with {results_folder} as the `results_folder`.
